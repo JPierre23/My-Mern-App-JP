@@ -11,7 +11,11 @@
 | Project Name | Mern  Example Project|
 | Description | A website where users can interact with each other just like Twitter |
 | Developers | Jonathan Pierre |
-
+| Live Website Frontend | https://main--soft-melomakarona-875d4b.netlify.app/ |
+| Live Website Backend | https://vanilla-ice-bookmark-backend.herokuapp.com/ |
+| Repo Frontend| https://github.com/Rvelarde83/vanillaice-frontend |
+| Repo Backend|  git@github.com:Rvelarde83/vanillaice-backend.git |
+| Trello Board |https://trello.com/b/FOxZvnkq/bookmarks |
 
 ## Technologies Used
 - HTML5                  
@@ -39,4 +43,3 @@ Users can now store their bookmarks on this site
 - User Authentication
 - Stored cookies and sessions
 - Mobile Friendly
-# My-Mern-App-Frontend
