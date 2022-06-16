@@ -40,7 +40,7 @@ export default function Form({createPost}){
                     className="text" 
                     />
                     
-                <button  onClick={(e)=>handleSubmit()}>Add Post</button>
+                <button  onClick={(e)=>handleSubmit(e)}>Add Post</button>
             </form>
             
         </div>
