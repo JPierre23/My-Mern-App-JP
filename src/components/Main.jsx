@@ -7,7 +7,7 @@ import User from "../pages/Users"
 export default function Main(){
     const [posts,setPosts]=useState(null)
     const [users,setUsers]=useState(null)
-    const URL = "http://localhost:3001/"
+    const URL = "https://my-mern-app-jp.herokuapp.com/"
 
     const getPosts= async () =>{
         const data = await fetch(URL + "posts")
