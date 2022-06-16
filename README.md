@@ -1,4 +1,4 @@
-## Vanilla Ice
+## MY Mern App 
 
 - Frontend repo
 
@@ -11,11 +11,10 @@
 | Project Name | Mern  Example Project|
 | Description | A website where users can interact with each other just like Twitter |
 | Developers | Jonathan Pierre |
-| Live Website Frontend | https://main--soft-melomakarona-875d4b.netlify.app/ |
+| Live Website Frontend | https://main--mellifluous-blini-249595.netlify.app/ |
 | Live Website Backend | https://my-mern-app-jp.herokuapp.com/user |
 | Repo Frontend| https://git.generalassemb.ly/jonwpierre/My-Mern-App-Frontend |
 | Repo Backend|  https://git.generalassemb.ly/jonwpierre/My-Mern-App-backend |
-| Trello Board |https://trello.com/b/FOxZvnkq/bookmarks |
 
 ## Technologies Used
 - HTML5                  
@@ -27,17 +26,17 @@
 - React 
 
 ## Problem Being Solved and Target Market
-Users can now store their bookmarks on this site
+Users can now communicate with each other.
 
 ## User Stories
-- Users should be able to do CRUD Operations with the bookmarks 
-- Users should be able to navigate to an edit page for a specific bookmark
-- Users should be able to see all bookmarks on the site
+- Users should be able to do CRUD Operations with the posts 
+- Users should be able to navigate to an user profile page to do crud operations on specific posts
+- Users should be able to see all users feed on the site
+- Users should be able to see their own personal feed on the site
 
 ## Screenshots
 
-![Vanillaice TrelloBoard](./23A1674C-60F0-44F0-9402-785A698E5CC8.jpeg)
-![Vanillaice Schema](./1FF11F6F-BAA4-4759-AC52-C972731C3379.jpeg)
+![Vanillaice Schema](./A9BE0ED4-6F47-46E5-80E5-B63A81D9D569.jpeg)
 
 ## Future Enhancements
 - User Authentication
