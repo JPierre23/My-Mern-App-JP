@@ -53,7 +53,7 @@ export default function ShowProfile({posts,users, createPost, updatePost, delete
     const loading = () =>{<h1>Loading ...</h1>}
     return(
         <div>
-            <Form createPost={createPost} handleSubmit={handleSubmit} handleChange={handleChange}/>
+            <Form createPost={createPost} />
              {posts && users  ? loaded() :  loading()}
 
         </div>

@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import {  useParams } from "react-router"
+import {  useNavigate, useParams } from "react-router"
 
 
-export default function Form({createPost,handleSubmit}){
+export default function Form({createPost}){
     const {id} =useParams();
+    let navigate = useNavigate()
     const [newForm, setNewForm] = useState({
         userID:id,
         message: "",
@@ -17,6 +18,12 @@ export default function Form({createPost,handleSubmit}){
             ...prevState,
             [event.target.name]: event.target.value,
         }))
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        navigate("/")
+        createPost(newForm)
     }
 
 
@@ -33,7 +40,7 @@ export default function Form({createPost,handleSubmit}){
                     className="text" 
                     />
                     
-                <button  onClick={(e)=>{createPost(newForm)}}>Add Post</button>
+                <button  onClick={(e)=>handleSubmit()}>Add Post</button>
             </form>
             
         </div>
