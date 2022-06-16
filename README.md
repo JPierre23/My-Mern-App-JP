@@ -12,9 +12,9 @@
 | Description | A website where users can interact with each other just like Twitter |
 | Developers | Jonathan Pierre |
 | Live Website Frontend | https://main--soft-melomakarona-875d4b.netlify.app/ |
-| Live Website Backend | https://vanilla-ice-bookmark-backend.herokuapp.com/ |
-| Repo Frontend| https://github.com/Rvelarde83/vanillaice-frontend |
-| Repo Backend|  git@github.com:Rvelarde83/vanillaice-backend.git |
+| Live Website Backend | https://my-mern-app-jp.herokuapp.com/user |
+| Repo Frontend| https://git.generalassemb.ly/jonwpierre/My-Mern-App-Frontend |
+| Repo Backend|  https://git.generalassemb.ly/jonwpierre/My-Mern-App-backend |
 | Trello Board |https://trello.com/b/FOxZvnkq/bookmarks |
 
 ## Technologies Used
@@ -43,3 +43,4 @@ Users can now store their bookmarks on this site
 - User Authentication
 - Stored cookies and sessions
 - Mobile Friendly
+# My-Mern-App-JP
