@@ -12,12 +12,12 @@ body {
   max-width: 400px;
   padding: 10px;
   text-align: center;
-  background-image: url("https://image.shutterstock.com/image-photo/creative-layout-made-colorful-tropical-600w-1074927038.jpg");
+  background-image: url("https://image.shutterstock.com/image-photo/white-clouds-daytime-clear-sky-600w-1667566387.jpg");
   background-repeat: no-repeat;
-  background-size: cover 400px;
-  background-attachment: fixed;
-  background-position:center;
-  color: black;
+  background-size: cover ;
+  background-attachment: scroll;
+  background-position:center ;
+  color: rgb(68, 142, 177);
   font-size: 20px;
 }
 
@@ -32,4 +32,11 @@ h2{
   text-decoration: underline;
   color: rgb(12, 128, 12);
   font-size: 30px;
+}
+.footer{
+  position:scroll;
+  bottom:0;
+  width:100%;
+  color: rgb(12, 128, 12);
+  padding: 30px;
 }
